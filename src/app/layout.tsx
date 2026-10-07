@@ -8,6 +8,8 @@ import { MobileTabBar } from "@/components/layout/mobile-tab-bar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ServiceWorker } from "@/components/pwa/service-worker";
 import { InstallPrompt } from "@/components/pwa/install-prompt";
+import { WhatsAppFloat } from "@/components/whatsapp-float";
+import { ChatWidget } from "@/components/chat/chat-widget";
 import { JsonLd } from "@/components/json-ld";
 import { Toaster } from "@/components/ui/sonner";
 import { site } from "@/config/site";
@@ -121,6 +123,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </main>
           <SiteFooter />
           <MobileTabBar />
+          <WhatsAppFloat />
+          <ChatWidget />
           <InstallPrompt />
           <ServiceWorker />
           <Toaster position="top-center" />

@@ -118,6 +118,8 @@ export const footerNav = [
       { href: "/about#partners", label: "Partners" },
       { href: "/contact", label: "Offices" },
       { href: "/privacy", label: "Privacy Policy" },
+      { href: "/popia", label: "POPIA Notice" },
+      { href: "/terms", label: "Terms of Use" },
     ],
   },
 ] as const;

@@ -81,6 +81,17 @@ export default function PrivacyPage() {
 
           <div className="mt-12 rounded-2xl border border-border bg-muted/40 p-6">
             <p className="text-sm leading-relaxed text-muted-foreground">
+              This policy sits alongside our{" "}
+              <Link href="/popia" className="font-medium text-brand underline-offset-4 hover:underline">
+                POPIA notice
+              </Link>
+              , which sets out your rights as a data subject under South African law, and our{" "}
+              <Link href="/terms" className="font-medium text-brand underline-offset-4 hover:underline">
+                terms of use
+              </Link>
+              .
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
               Need a copy of your data or want to raise a concern? Email{" "}
               <a href={`mailto:${site.email}`} className="font-medium text-brand underline-offset-4 hover:underline">
                 {site.email}

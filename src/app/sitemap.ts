@@ -18,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${site.url}/tools/calculator`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${site.url}/tools/brief`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${site.url}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${site.url}/popia`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
+    { url: `${site.url}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: `${site.url}/areas`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
   ];
 

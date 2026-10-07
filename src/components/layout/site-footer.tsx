@@ -146,9 +146,15 @@ export function SiteFooter() {
             <p>
               © {new Date().getFullYear()} {site.legalName}. All rights reserved.
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
               <Link href="/privacy" className="hover:text-foreground">
                 Privacy policy
+              </Link>
+              <Link href="/popia" className="hover:text-foreground">
+                POPIA
+              </Link>
+              <Link href="/terms" className="hover:text-foreground">
+                Terms
               </Link>
               <Link href="/contact" className="hover:text-foreground">
                 Contact
